@@ -1,0 +1,36 @@
+li{ list-style: none;}
+#productWrap{
+    &.list{
+        .list{ color:red; border-bottom-color:red !important}
+        li{
+            width:100%
+            
+        }
+    }
+    &.symple{
+        .symple{ color:red; border-bottom-color:red !important}
+        li{
+            width:33.333% 
+        }
+    }
+    &.multi{
+        .multi{ color:red; border-bottom-color:red !important}
+        li{
+            width:20%  
+        }
+    }
+    .prd_list{
+        ul {
+            li{
+                border:1px solid #222;
+            }
+            img{ 
+                max-width:330px;
+                width:100%;
+            }       
+            
+        }
+
+    }
+}
+
